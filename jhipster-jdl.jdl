@@ -1,0 +1,14 @@
+
+entity Persona {
+	nombre String
+    sexo Sexo
+    edad Integer
+    peso Double
+    altura Double
+    imc Double
+    fecha LocalDate
+}
+
+enum Sexo {
+    M, F
+}
